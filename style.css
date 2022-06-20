@@ -88,3 +88,11 @@ button[disabled]::before {
     font-variant: small-caps;
     text-transform: lowercase;
 }
+
+address {
+    margin-top: 20px;
+}
+
+a {
+    color: #fff;
+}
