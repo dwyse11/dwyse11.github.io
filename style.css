@@ -50,9 +50,11 @@ p {
 }
 
 button {
+    position: relative;
     min-width: 290px;
     padding: 10px;
     margin: 10px 20px;
+    overflow: hidden;
     background-color: #BA2C73;
     border: 0;
     border-radius: 5px;
@@ -61,7 +63,23 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+button:not([disabled]):hover {
     box-shadow: 0 0 0 2px #fff;
 }
 
+button[disabled]::before {
+    content: 'Можливо скоро буде';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    font-weight: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
