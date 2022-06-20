@@ -29,14 +29,17 @@ p {
 .button-holder {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 button {
+    min-width: 310px;
     padding: 10px;
-    margin: 0 20px;
+    margin: 10px 20px;
     background-color: #BA2C73;
     border: 0;
     border-radius: 5px;
     color: #191D32;
-    font-size: 3vw;
+    font-size: 22px;
 }
+
