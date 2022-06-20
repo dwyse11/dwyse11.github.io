@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #191D32;
+    color: #BA2C73;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+p {
+    font-size: 4vw;
+}
+
+.button-holder {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    margin: 0 20px;
+    background-color: #BA2C73;
+    border: 0;
+    border-radius: 5px;
+    color: #191D32;
+    font-size: 3vw;
+}
