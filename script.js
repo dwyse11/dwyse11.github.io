@@ -181,8 +181,8 @@ const cities = [
     "Камінь-Каширський",
     "Кам'янець-Подільський",
     "Кам'янку",
-    "Кам'янка-Бузьку",
-    "Кам'янка-Дніпровську",
+    "Кам'янку-Бузьку",
+    "Кам'янку-Дніпровську",
     "Кам'янське",
     "Канів",
     "Карлівку",
@@ -480,3 +480,5 @@ const btnChange = document.querySelector('#changeName');
 btnChange.addEventListener('click', (event) => {
     changeName();
 });
+
+changeName();
