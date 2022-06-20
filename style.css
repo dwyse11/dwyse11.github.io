@@ -16,6 +16,7 @@ body {
     background-color: #191D32;
     color: #BA2C73;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
     text-align: center;
 }
 
@@ -28,6 +29,18 @@ p {
     margin: 0.5em 0;
     color: #fff;
     font-size: 10vw;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    p {
+        margin: 0;
+        font-size: 100px;
+    }
 }
 
 .button-holder {
